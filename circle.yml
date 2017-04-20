@@ -1,6 +1,4 @@
-machine:
-  timezone:
-    America/Chicago
+
 
 test:
   override:
