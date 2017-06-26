@@ -16,4 +16,4 @@ workflows:
       - test:
           filters:
             branches:
-              only: dev-release
+              only: /dev-*/
