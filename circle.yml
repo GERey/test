@@ -1,5 +1,8 @@
-
-
+machine:
+  pre:
+    - nvm alias default 6.1.0
+    
 test:
   override:
-    - if [[ ! -z $CI_PULL_REQUESTS ]] ; then echo none ; fi ;
+    - node -v
+    - nvm run node --version
