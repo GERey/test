@@ -1,6 +1,6 @@
 machine:
   pre:
-    - nvm alias 6.1.0
+    - nvm alias default 6.1.0
     
 test:
   override:
