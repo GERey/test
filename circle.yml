@@ -6,3 +6,4 @@ dependencies:
 test:
   override:
     - node -v
+    - nvm run node --version
