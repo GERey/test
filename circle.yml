@@ -1,17 +1,12 @@
+test:
+  override:
+    - echo "party"
 
-version: 2
-jobs:
-  build:
-    docker:
-      - image: circleci/ruby:2.4.1
-    steps:
-      - setup_remote_docker
-      - checkout
-      - run:
-          name: 
-          command: |
-            docker --version
-
+deployment:
+  production:
+    branch: 90.15
+    commands:
+      - echo "hello"
 
 
 
