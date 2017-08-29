@@ -1,9 +1,12 @@
+test:
+  override:
+    - echo "party"
 
 deployment:
   production:
     branch: 90.15
     commands:
-      - echo hello
+      - echo "hello"
 
 
 
