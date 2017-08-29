@@ -1,7 +1,4 @@
 
-test:
-  - echo before
-
 deployment:
   production:
     branch: 90.15
