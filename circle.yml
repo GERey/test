@@ -1,6 +1,6 @@
 checkout:
   post:
-    - git checkout git@github.com:GERey/pixelgroup-home.git
+    - git clone git@github.com:GERey/pixelgroup-home.git
 
 test:
   override:
