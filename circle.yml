@@ -1,12 +1,10 @@
+checkout:
+  post:
+    - git checkout git@github.com:GERey/pixelgroup-home.git
+
 test:
   override:
     - echo "party"
-
-deployment:
-  production:
-    branch: 90.15
-    commands:
-      - echo "hello"
 
 
 
