@@ -1,3 +1,8 @@
+machine:
+  pre:
+    - curl -L -o phantomjs.tar.bz2 https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
+    
+
 checkout:
   post:
     - sudo git clone git@github.com:GERey/pixelgroup-home.git
