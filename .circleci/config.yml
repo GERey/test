@@ -23,6 +23,8 @@ jobs:
 
   downstream:
     <<: *defaults
+    docker:
+      - image: buildpack-deps:jessie
     steps:      
       - run: sudo apt-get update
       - run: sudo apt-get install openvpn
