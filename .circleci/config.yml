@@ -5,7 +5,6 @@ defaults: &defaults
   working_directory: /tmp
 
 version: 2
-debug: true
 jobs:
   flow:
     <<: *defaults
