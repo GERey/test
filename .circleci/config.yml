@@ -23,7 +23,6 @@ jobs:
 
   downstream:
     <<: *defaults
-    machine: true
     steps:      
       - run: sudo apt-get update
       - run: sudo apt-get install openvpn
