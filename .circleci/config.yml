@@ -7,7 +7,7 @@ defaults: &defaults
 version: 2
 
 jobs:
-  flow:
+  build:
     <<: *defaults
     docker:
       - image: buildpack-deps:jessie
@@ -46,7 +46,7 @@ workflows:
 
   btd:
     jobs:
-      - flow
+      - build
       - downstream:
           requires:
             - flow
