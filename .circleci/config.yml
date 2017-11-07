@@ -18,6 +18,7 @@ workflows:
   btd:
     jobs:
       - build
+        context: org-global
 
 
 #version: 2
