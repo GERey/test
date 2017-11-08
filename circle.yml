@@ -2,4 +2,4 @@
 
 test:
   override:
-    - echo "hello and goodbye?"
+    - echo "no goodbyes!!"
