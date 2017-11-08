@@ -2,4 +2,4 @@
 
 test:
   override:
-    - if [[ ! -z $CI_PULL_REQUEST ]] ; then echo "Hello" ; fi ;
+    - echo "hello"
