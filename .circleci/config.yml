@@ -10,7 +10,7 @@ jobs:
       - image: alpine:latest
     steps:
       - run: echo 'export TEST_TWO=$TEST_ONE' >> $BASH_ENV 
-      - run: env
+      - run: source $BASH_ENV | env
 
 workflows:
   version: 2
