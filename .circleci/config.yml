@@ -7,7 +7,7 @@ jobs:
   build:
     <<: *defaults
     docker:
-      - image: golang:alpine
+      - image: alpine:latest
     steps:
       - run: echo 'export TEST_TWO=$TEST_ONE' >> $BASH_ENV 
       - run: env
