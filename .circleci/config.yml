@@ -7,7 +7,7 @@ jobs:
   build:
     <<: *defaults
     docker:
-      - image: hashicorp/terraform:0.10.7 
+      - image: golang:alpine
     steps:
       - run: echo 'export TEST_TWO=$TEST_ONE' >> $BASH_ENV 
       - run: env
