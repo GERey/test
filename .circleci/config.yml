@@ -5,5 +5,6 @@ jobs:
     machine: true
     
     steps:
-      - run: echo "time to get started"
-    
+      - run: wget http://qt.mirrors.tds.net/qt/archive/qt/5.9/5.9.3/qt-opensource-linux-x64-5.9.3.run
+      - run: sudo ./qt-opensource-linux-x64-5.9.3.run
+      
