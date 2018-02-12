@@ -1,11 +1,11 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/test
+    working_directory: ~/code
     docker:
-      - image: circleci/python:latest
-      - image: circleci/mysql:latest
+      - image: circleci/android:api-27-alpha
     
     steps:
+      - checkout
       - run: echo "time to get started"
     
